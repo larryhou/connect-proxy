@@ -26,7 +26,7 @@ recommends more flexible mechanism: ProxyCommand option instead.
 
 Proxy command mechanism is delegation of network stream
 communication. If ProxyCommand options is specified, SSH invoke
-specified external command and talk with standard I/O of thid
+specified external command and talk with standard I/O of this
 command. Invoked command undertakes network communication with
 relaying to/from standard input/output including iniitial
 communication or negotiation for proxying. Thus, ssh can split out
